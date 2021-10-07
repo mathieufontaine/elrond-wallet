@@ -1,1 +1,243 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #1e1d21;
+  color: #6c737a;
+  line-height: 1.6;
+  height: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.fas {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.fas:hover {
+  color: #2745bb;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border: 0;
+  background: #2745bb;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem 3rem;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn-primary {
+  background-color: #1e1d21;
+}
+
+.btn-secondary {
+  background-color: #6881e0;
+}
+
+.primary-text {
+  color: #1e1d21;
+}
+
+.secondary-text {
+  color: #2745bb;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+main {
+  position: relative;
+  width: 75%;
+  background: #e8ebf6;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  position: relative;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar {
+  background: white;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__header {
+  border-bottom: 1px solid grey;
+}
+
+.navbar__title {
+  font-size: 2rem;
+}
+
+.navbar__heading {
+  padding: 1rem 2rem;
+}
+
+.navbar__section {
+  padding: 4rem 0rem;
+}
+
+.navbar li {
+  padding: 1rem 2rem;
+}
+
+.navbar li:hover {
+  background: #f5f5f5;
+  color: #2745bb;
+}
+
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  padding: 1rem 2rem;
+}
+
+.intro__title {
+  font-size: 1rem;
+}
+
+.intro__hello {
+  font-size: 3rem;
+  color: #1e1d21;
+  font-weight: 500;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #ebebeb;
+}
+
+.cards__card {
+  height: 200px;
+  background: #2745bb;
+  padding: 2rem;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  width: 100%;
+  margin: 1rem;
+}
+
+.card__logo {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.card__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text--bg-number {
+  font-size: 1.5rem;
+}
