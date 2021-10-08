@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  border: 1px solid $text-color;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.8rem;
+  &:hover {
+    background-color: $secondary-color;
+    color: white;
+  }
+  &--selected {
+    background-color: $secondary-color;
+    color: white;
+    border: 1px solid $secondary-color;
+  }
+  &--week {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  &--month {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+  }
+}

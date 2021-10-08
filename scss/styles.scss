@@ -1,3 +1,15 @@
 @import "utilities";
-@import "navbar";
-@import "content";
+@import "components/container";
+@import "components/section";
+@import "components/card";
+@import "components/card-type-large";
+@import "components/text";
+@import "components/button";
+@import "components/icon";
+@import "sections/navbar";
+@import "sections/header";
+@import "sections/intro";
+@import "sections/summury";
+@import "sections/chart-staking";
+@import "sections/chart";
+@import "sections/staking";

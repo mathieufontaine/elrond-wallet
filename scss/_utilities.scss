@@ -4,8 +4,9 @@ $primary-color: #1e1d21;
 $secondary-color: #2745bb;
 $text-color: #6c737a;
 $card-text-color: rgb(235, 235, 235);
-$menu-background-color: white;
-$background-color: #e8ebf6;
+$primary-bg-color: #e8ebf6;
+$secondary-bg-color: white;
+$shadow: rgba(149, 157, 165, 0.2) 0px 14px 24px;
 
 *,
 *:before,
@@ -48,74 +49,8 @@ img {
   width: 100%;
 }
 
-.fas {
-  padding: 1rem;
-  font-size: 2rem;
-  &:hover {
-    color: $secondary-color;
-  }
-}
-
-%btn {
-  display: inline-block;
-  border: 0;
-  background: $secondary-color;
-  color: #fff;
-  border-radius: 8px;
-  padding: 1rem 3rem;
-  outline: none;
-  cursor: pointer;
-  text-align: center;
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
-.btn-primary {
-  @extend %btn;
-  background-color: $primary-color;
-}
-
-.btn-secondary {
-  @extend %btn;
-  background-color: lighten($secondary-color, 20%);
-}
-
-.primary-text {
-  color: $primary-color;
-}
-
-.secondary-text {
-  color: $secondary-color;
-}
-
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-}
-
 main {
   position: relative;
-  width: 75%;
-  background: $background-color;
-}
-
-.container {
-  position: relative;
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.section {
-  position: relative;
-  padding: 4rem 2rem;
-  width: 100%;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 83%;
+  background: $primary-bg-color;
 }

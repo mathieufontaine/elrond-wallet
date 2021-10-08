@@ -1,0 +1,15 @@
+.section--summury {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  color: $card-text-color;
+  &__card {
+    height: 200px;
+    background: $secondary-color;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+}

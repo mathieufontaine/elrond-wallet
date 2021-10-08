@@ -1,0 +1,13 @@
+.chart__price-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chart {
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
