@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: $shadow;
   &__header {
     border-bottom: 1px solid grey;
   }
@@ -12,6 +13,9 @@
   }
   &__heading {
     padding: 1rem 2rem;
+    color: $light-grey;
+    text-transform: uppercase;
+    font-size: 1rem;
   }
   &__section {
     padding: 4rem 0rem;
