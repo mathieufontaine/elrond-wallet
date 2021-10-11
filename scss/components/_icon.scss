@@ -1,9 +1,12 @@
-.fas {
+.icon {
   padding: 1rem;
   font-size: 1.5rem;
   color: $light-grey;
-  &:hover {
-    color: $secondary-color;
+  &--clickable {
+    cursor: pointer;
+    &:hover {
+      color: $secondary-color;
+    }
   }
 }
 

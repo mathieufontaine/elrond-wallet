@@ -28,7 +28,7 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 
@@ -196,13 +196,17 @@ main {
   border-left: 0;
 }
 
-.fas {
+.icon {
   padding: 1rem;
   font-size: 1.5rem;
   color: #bfbfbf;
 }
 
-.fas:hover {
+.icon--clickable {
+  cursor: pointer;
+}
+
+.icon--clickable:hover {
   color: #2745bb;
 }
 
@@ -295,6 +299,7 @@ main {
   padding: 1rem;
   font-size: 1.1rem;
   color: #6d747b;
+  cursor: pointer;
 }
 
 .navbar li:hover {
@@ -368,8 +373,8 @@ main {
 .section--chart-staking {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
   grid-gap: 2rem;
 }
 
@@ -395,6 +400,10 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+canvas {
+  width: 100%;
 }
 
 .staking {
