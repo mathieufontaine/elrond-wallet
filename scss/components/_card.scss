@@ -10,9 +10,18 @@
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: $shadow;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     i {
       font-size: 1.5rem;
       color: white;
+    }
+    img {
+      height: 5rem;
+      padding: 0.5rem;
     }
   }
   &__text {

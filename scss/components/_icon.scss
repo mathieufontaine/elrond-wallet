@@ -1,8 +1,32 @@
 .fas {
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: $light-grey;
   &:hover {
     color: $secondary-color;
+  }
+}
+
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $secondary-color;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 20px;
+  padding: 0 0.5rem;
+  cursor: pointer;
+
+  &__icon {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+  &__text {
+    color: white;
+    padding: 0.5rem;
   }
 }

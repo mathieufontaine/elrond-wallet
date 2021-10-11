@@ -1,0 +1,31 @@
+.card--large {
+  padding: 0;
+  &__title {
+    display: block;
+    width: 100%;
+    padding: 1.3rem 1rem;
+    border-bottom: 1px solid $light-grey;
+    color: $primary-color;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  &__inner {
+    padding: 2rem;
+  }
+}
+
+.card--dark-blue {
+  background-color: $secondary-color;
+}
+.card--light-blue {
+  background-color: $light-blue;
+}
+.card--green {
+  background-color: $green;
+}
+.card--yellow {
+  background-color: $yellow;
+}
+.card--orange {
+  background-color: $orange;
+}

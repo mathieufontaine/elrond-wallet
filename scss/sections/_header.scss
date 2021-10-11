@@ -7,4 +7,12 @@
   background: $secondary-bg-color;
   padding: 1rem 2rem;
   box-shadow: $shadow;
+  font-size: 1.2rem;
+  height: 5rem;
+}
+
+.address {
+  &__number {
+    color: $primary-color;
+  }
 }

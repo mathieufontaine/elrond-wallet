@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 *,
 *:before,
 *:after {
@@ -13,9 +14,10 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #1e1d21;
   color: #6c737a;
+  font-weight: 400;
   line-height: 1.6;
   height: 100%;
   min-height: 100vh;
@@ -80,11 +82,27 @@ main {
   border-radius: 10px;
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 14px 24px;
           box-shadow: rgba(149, 157, 165, 0.2) 0px 14px 24px;
+  height: 4rem;
+  width: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card__logo i {
   font-size: 1.5rem;
   color: white;
+}
+
+.card__logo img {
+  height: 5rem;
+  padding: 0.5rem;
 }
 
 .card__text {
@@ -107,11 +125,32 @@ main {
   padding: 1.3rem 1rem;
   border-bottom: 1px solid #bfbfbf;
   color: #1e1d21;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .card--large__inner {
   padding: 2rem;
+}
+
+.card--dark-blue {
+  background-color: #2745bb;
+}
+
+.card--light-blue {
+  background-color: #5c93dc;
+}
+
+.card--green {
+  background-color: #55a579;
+}
+
+.card--yellow {
+  background-color: #e6bc63;
+}
+
+.card--orange {
+  background-color: #d6a670;
 }
 
 .text--title {
@@ -159,12 +198,44 @@ main {
 
 .fas {
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #bfbfbf;
 }
 
 .fas:hover {
   color: #2745bb;
+}
+
+.help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #2745bb;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 20px;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.help__icon {
+  color: white;
+}
+
+.help__icon:hover {
+  color: white;
+}
+
+.help__text {
+  color: white;
+  padding: 0.5rem;
 }
 
 .navbar {
@@ -186,10 +257,27 @@ main {
 
 .navbar__header {
   border-bottom: 1px solid grey;
+  width: 100%;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+}
+
+.navbar__logo {
+  height: 2rem;
+  width: auto;
+  padding: 0 0.5rem;
+  border-right: 1px solid grey;
 }
 
 .navbar__title {
-  font-size: 2rem;
+  padding: 0 1rem;
+  font-weight: 400;
 }
 
 .navbar__heading {
@@ -204,7 +292,9 @@ main {
 }
 
 .navbar li {
-  padding: 1rem 2rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: #6d747b;
 }
 
 .navbar li:hover {
@@ -228,6 +318,12 @@ main {
   padding: 1rem 2rem;
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 14px 24px;
           box-shadow: rgba(149, 157, 165, 0.2) 0px 14px 24px;
+  font-size: 1.2rem;
+  height: 5rem;
+}
+
+.address__number {
+  color: #1e1d21;
 }
 
 .section--intro__title {
@@ -257,7 +353,6 @@ main {
 
 .section--summury__card {
   height: 200px;
-  background: #2745bb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

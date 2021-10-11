@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 $primary-color: #1e1d21;
 $secondary-color: #2745bb;
+$light-blue: #5c93dc;
+$green: #55a579;
+$yellow: #e6bc63;
+$orange: #d6a670;
 $text-color: #6c737a;
 $card-text-color: rgb(235, 235, 235);
 $light-grey: #bfbfbf;
@@ -23,9 +28,10 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: $primary-color;
   color: $text-color;
+  font-weight: 400;
   line-height: 1.6;
   height: 100%;
   min-height: 100vh;

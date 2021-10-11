@@ -14,17 +14,17 @@
 <body>
     <nav class="navbar">
         <div class="navbar__header">
-            <img class="navbar__logo" src="" alt="">
+            <img class="navbar__logo" src="./images/elrond-logo.png" alt="elrond-egld">
             <h1 class="navbar__title">Wallet</h1>
         </div>
         <section class="section navbar__section">
             <span class="navbar__heading">Menu</span>
             <ul>
-                <li><i class="fas fa-lock"></i>Dashboard</li>
-                <li><i class="fas fa-lock"></i>Transactions</li>
-                <li><i class="fas fa-lock"></i>Send</li>
-                <li><i class="fas fa-lock"></i>Receive</li>
-                <li><i class="fas fa-lock"></i>Buy</li>
+                <li><i class="fas fa-chart-pie"></i>Dashboard</li>
+                <li><i class="fas fa-stream"></i>Transactions</li>
+                <li><i class="fas fa-arrow-up"></i>Send</li>
+                <li><i class="fas fa-arrow-down"></i>Receive</li>
+                <li><i class="fas fa-exchange-alt"></i>Buy</li>
             </ul>
         </section>
         <section class="section navbar__section">
@@ -32,22 +32,22 @@
             <ul>
                 <li><i class="fas fa-lock"></i>Stake</li>
                 <li><i class="fas fa-lock"></i>Delegate</li>
-                <li><i class="fas fa-lock"></i>Validate</li>
+                <li><i class="fas fa-layer-group"></i>Validate</li>
             </ul>
         </section>
     </nav>
     <main>
         <header class="header">
             <div class="address">
-                <span>Address:</span>
-                <span>erd275736897209gsuihgsoy82</span>
-                <i class="fas fa-lock"></i>
-                <i class="fas fa-lock"></i>
+                <span class="address__label">Address:</span>
+                <span class="address__number">erd275736897209gsjnwjkn38782ysuihgsoy82</span>
+                <i class="fas fa-copy"></i>
+                <i class="fas fa-qrcode"></i>
             </div>
             <div class="actions">
-                <i class="fas fa-lock"></i>
-                <i class="fas fa-lock"></i>
-                <i class="fas fa-lock"></i>
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-th"></i>
+                <i class="fas fa-sign-out-alt"></i>
                 <span>Close</span>
             </div>
         </header>
@@ -57,45 +57,47 @@
                 <div class="section--intro__hello">Hi!</div>
             </section>
             <section class="section section--summury">
-                <div class="card section--summury__card">
+                <div class="card section--summury__card card--dark-blue">
                     <div class="card__text">
                         <span class="text--title">Total</span>
-                        <span class="text--bg-number">10 eGLD</span>
-                        <span class="text--sm-number">1000$</span>
+                        <span class="text--bg-number">8.5 eGLD</span>
+                        <span class="text--sm-number">850$</span>
+                    </div>
+                    <div class="card__logo">
+                        <img src="./images/elrond-egld-egld-logo.svg" alt="egld-logo" />
+                    </div>
+                </div>
+                <div class="card section--summury__card card--light-blue">
+                    <div class="card__text">
+                        <span class="text--title">Available</span>
+                        <span class="text--bg-number">1.5 eGLD</span>
+                        <span class="text--sm-number">$150</span>
+                    </div>
+                    <div class="card__logo"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="card section--summury__card card--yellow">
+                    <div class="card__text">
+                        <span class="text--title">Stake Delegation</span>
+                        <span class="text--bg-number">2 eGLD</span>
+                        <span class="text--sm-number">$200</span>
                     </div>
                     <div class="card__logo"><i class="fas fa-lock"></i></div>
                 </div>
-                <div class="card section--summury__card">
+                <div class="card section--summury__card card--green">
                     <div class="card__text">
-                        <span class="text--title">Total</span>
-                        <span class="text--bg-number">10 eGLD</span>
-                        <span class="text--sm-number">1000$</span>
+                        <span class="text--title">My Legacy Delegations</span>
+                        <span class="text--bg-number">5 eGLD</span>
+                        <span class="text--sm-number">$500</span>
                     </div>
                     <div class="card__logo"><i class="fas fa-lock"></i></div>
                 </div>
-                <div class="card section--summury__card">
+                <div class="card section--summury__card card--orange">
                     <div class="card__text">
-                        <span class="text--title">Total</span>
-                        <span class="text--bg-number">10 eGLD</span>
-                        <span class="text--sm-number">1000$</span>
+                        <span class="text--title">Staked Nodes</span>
+                        <span class="text--bg-number">0 eGLD</span>
+                        <span class="text--sm-number">$0.00</span>
                     </div>
-                    <div class="card__logo"><i class="fas fa-lock"></i></div>
-                </div>
-                <div class="card section--summury__card">
-                    <div class="card__text">
-                        <span class="text--title">Total</span>
-                        <span class="text--bg-number">10 eGLD</span>
-                        <span class="text--sm-number">1000$</span>
-                    </div>
-                    <div class="card__logo"><i class="fas fa-lock"></i></div>
-                </div>
-                <div class="card section--summury__card">
-                    <div class="card__text">
-                        <span class="text--title">Total</span>
-                        <span class="text--bg-number">10 eGLD</span>
-                        <span class="text--sm-number">1000$</span>
-                    </div>
-                    <div class="card__logo"><i class="fas fa-lock"></i></div>
+                    <div class="card__logo"><i class="fas fa-layer-group"></i></div>
                 </div>
             </section>
             <section class="section section--chart-staking">
@@ -129,6 +131,10 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="help">
+            <i class="help__icon fas fa-question-circle"></i>
+            <span class="help__text">Help</span>
         </div>
     </main>
 </body>
